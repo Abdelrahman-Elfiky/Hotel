@@ -235,3 +235,86 @@ h4{
 .dev:hover{
     box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
 }
+@media only screen and (max-width: 768px) {
+    .nav ul {
+        gap: 10px;
+    }
+
+    .nav {
+        top: -400px;
+    }
+    .sec1 .img1{
+        width: 71vh;
+    }
+    .content h1 {
+        font-size: 24px;
+        top: -140px;
+        color: white;
+    }
+
+    .sec2 {
+        padding: 70px;
+        padding-left: 200px;
+        width: 71vh;
+    }
+    .sec2 .date{
+        width: 70px;
+    }
+
+    .sec3 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sec3 {
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four"
+        "five";
+        width: 100vh;
+    }
+
+    .first, .second, .third {
+        margin: 10px;
+    }
+    .sec5{
+        width: 71vh;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .nav ul {
+        gap: 30px;
+    }
+
+    .nav {
+        top: -300px;
+    }
+.sec1 .img1{
+    width: 100vh;
+}
+    .content h1 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sec2 .options {
+        flex-direction: column;
+    }
+
+    .sec3 img {
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .sec3 {
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four"
+        "five";
+    }
+}
